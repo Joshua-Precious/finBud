@@ -1,18 +1,18 @@
 export default function UpdatesList() {
     return (
-        <div className="flex h-full">
-            <div className="grid grid-cols-2 gap-4 w-full pt-2">
+        <div className="flex flex-col flex-1">
+            <div className="grid grid-cols-2 gap-4 flex-1 pt-2">
 
-                <div className="flex flex-1 bg-base-100 rounded-lg"></div>
+                <div className="flex flex-1 bg-base-100 rounded-lg">gcg</div>
 
                 <div className="flex flex-1">
                     <div className="grid grid-cols-2 gap-4 w-full">
-                        <div className="bg-base-100 rounded-lg"></div>
-                        <div className="bg-base-100 rounded-lg"></div>
+                        <div className="bg-base-100 rounded-lg">gv</div>
+                        <div className="bg-base-100 rounded-lg">jhv</div>
                     </div>
                 </div>
 
-                <div className="flex flex-1 bg-base-100 rounded-lg"></div>
+                <div className="flex flex-1 bg-base-100 rounded-lg">d</div>
 
                 <div className="flex flex-1">
                     <div className="grid grid-cols-2 gap-4 w-full">

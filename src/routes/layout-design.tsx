@@ -5,10 +5,10 @@ import UpdatesList from "../components/blocks/updates-list";
 
 export default function LayoutDesign() {
     return (
-        <div className="flex flex-col space-y-6 p-6">
+        <div className="flex flex-col space-y-6">
             <header>
                 <div className="py-6 flex items-center container mx-auto">
-                    <div className='icon-container mr-2 items-center pl-1'>
+                    <div className='icon-container mr-8 items-center '>
                         <House size={48}/>
                     </div>
                     <div className="flex-1">
@@ -29,9 +29,9 @@ export default function LayoutDesign() {
                 </div>
             </header>
 
-            <div className="flex container mx-auto min-h-auto">
+            <div className="flex container mx-auto">
                 <div className="flex flex-1 space-x-8">
-                    <div className="flex flex-col bg-base-100 p-3 justify-between space-y-30 rounded-4xl">
+                    <div className="flex flex-col bg-base-100 p-3 justify-between space-y-24 rounded-4xl">
                         <div className="space-y-4">
                             <Menu /> 
                             <IdCard />
