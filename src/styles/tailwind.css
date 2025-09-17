@@ -1,10 +1,25 @@
 @import "tailwindcss";
+@plugin "daisyui";
 @import "./global.css";
-@plugin "daisyui";  
 
 @plugin "daisyui/theme" {
     name: "light";
     default: true;
-    --color-accent: #fe6e00;
-    --color-accent-content: #ffffff;
+    --color-primary: #eae9e3;
+    --color-primary-content: #476b57;
+    --color-accent: #e8efea;
+    --color-accent-content: #f5eae7;
+}
+
+@plugin "daisyui/theme" {
+    name: "dark";
+    prefersdark: true;
+    --color-primary: #eae9e3;
+    --color-primary-content: #476b57;
+    --color-accent: #e8efea;
+    --color-accent-content: #f5eae7;
+}
+
+.icon-container{
+    color:  #476b57;
 }

@@ -1,5 +1,5 @@
 html,
 body {
     font-family: "outfit", sans-serif;
-    @apply bg-base-300 text-base-content;
+    @apply bg-primary text-neutral;
 }
